@@ -1,0 +1,209 @@
+	body {
+    background-image: url(map.png);
+    background-color: #CFF0FF;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1250px 700px;  
+    -webkit-animation:colorchange 20s infinite alternate;
+  }
+  h1{
+    text-align: center;
+    transform: rotateY(60deg);
+    transform-style: preserve-3d;
+    width:100%;
+    margin: 0 auto;
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange{
+      0% {
+        color: red;
+      }
+      10% {
+        color: orange;
+      }
+      20% {
+        color: blue;
+      }
+      50% {
+        color: green;
+      }
+      100% {
+        color: pink;
+      }
+    }
+      
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.tooltip .marker1 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  left: 15%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, red, white, blue);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.tooltip:hover .marker1 {
+  visibility: visible;
+}
+
+.tooltip .marker2 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 490px;
+  left: 24%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, green, yellow);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.tooltip:hover .marker2 {
+  visibility: visible;
+}
+
+.tooltip .marker3 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 145px;
+  left: 40%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, black, red, gold);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.tooltip:hover .marker3 {
+  visibility: visible;
+}
+
+.tooltip .marker4 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 350px;
+  left: 47%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, black, red, green, white);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.tooltip:hover .marker4 {
+  visibility: visible;
+}
+
+.tooltip .marker5 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  left: 65%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, white, red);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+.tooltip:hover .marker5 {
+  visibility: visible;
+}
+
+.tooltip .marker6 {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 580px;
+  left: 83%;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(45deg, blue, white);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+.tooltip:hover .marker6 {
+  visibility: visible;
+} 
